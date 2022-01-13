@@ -32,10 +32,10 @@ Ao receber a mensagem, o serviço deve persisti-la com todos os dados acima mais
 ### Implementação
 
 #### Casos de Uso
-![Caso de Uso](UseCase.drawio.png)
+![Caso de Uso](./docs/UseCase.drawio.png)
 
 #### Arquitetura
-![Arquitetura](Arquitetura.drawio.png)
+![Arquitetura](./docs/Arquitetura.drawio.png)
 
 #### Observações
 A implementação será feita primeiramente usando o modelo de `Monolito`, onde um único projeto é responsável por todas as funções.
