@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<version>1.0.0</version>
+		<owners>Grupo Atividade</owners>
+		<Authors>Grupo Atividade</Authors>
+		<NeutralLanguage>pt-BR</NeutralLanguage>
+		<description>Estudos de Mensageria</description>
+		<PackageProjectUrl>https://github.com/zeh-almeida/estudo-mensageria-csharp</PackageProjectUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Update="Mensageria.Console.xml">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>
