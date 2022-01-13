@@ -1,0 +1,8 @@
+﻿/.vs
+/coveragereport
+/Documentation.Cpu/Help
+/documentation
+/**/TestResults
+/**/bin
+/**/obj
+/**/coverage.cobertura.xml
