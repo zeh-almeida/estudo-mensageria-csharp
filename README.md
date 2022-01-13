@@ -1,6 +1,7 @@
-# Estudo de Mensageria
+# Implementação do Estudo de Mensageria em C#
 
 ## Objetivo
+Implementar o [Estudo de Mensageria](https://github.com/zeh-almeida/estudo-mensageria) usando C# e Dotnet.
 
 ### Definição do serviço
 Implementar um serviço que envie e receba mensagens com serviços externos.
@@ -29,15 +30,14 @@ As mensagens enviadas devem seguir um padrão:
 Ao receber a mensagem, o serviço deve persisti-la com todos os dados acima mais a data de recebimento, também em UTC.
 
 ### Implementação
-A implementação do projeto deve seguir padrões de [TDD](https://en.wikipedia.org/wiki/Test-driven_development);
-Devem ser implementados [testes de integração](https://en.wikipedia.org/wiki/Integration_testing);
 
-O projeto deve ser publicado em uma cloud.
-Para isso, deve ser usado o [Terraform](www.terraform.io).
+#### Casos de Uso
+![Caso de Uso](./docs/UseCase.drawio.png)
 
-O deploy também deve ser automatizado, utilizando [GitHub Actions](https://github.com/features/actions).
+#### Arquitetura
+![Arquitetura](./docs/Arquitetura.drawio.png)
 
-### Execução
-Durante a execução do projeto, devem ser feitas tarefas via board, no modelo de [User Story](https://en.wikipedia.org/wiki/User_story).
+#### Observações
+A implementação será feita primeiramente usando o modelo de `Monolito`, onde um único projeto é responsável por todas as funções.
 
-Isso ajuda a definir os comportamentos esperados e dessa forma, garante que os testes sejam mais eficazes.
+A medida que se tem andamento na implementação, a solução vai ser refatorada para usar o padrão de micro-serviços onde possível.
