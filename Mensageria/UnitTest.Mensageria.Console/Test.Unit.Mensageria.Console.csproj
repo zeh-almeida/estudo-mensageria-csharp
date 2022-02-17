@@ -27,4 +27,8 @@
 			<PrivateAssets>all</PrivateAssets>
 		</PackageReference>
 	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Mensageria.Console\Mensageria.Console.csproj" />
+	</ItemGroup>
 </Project>
