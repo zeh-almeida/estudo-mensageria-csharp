@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mensageria.Console", "Mensageria.Console\Mensageria.Console.csproj", "{A4A0D43B-FA97-48CA-A6A7-BF8C8A6FEC65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mensageria.Console", "Mensageria.Console\Mensageria.Console.csproj", "{A4A0D43B-FA97-48CA-A6A7-BF8C8A6FEC65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest.Mensageria.Console", "UnitTest.Mensageria.Console\UnitTest.Mensageria.Console.csproj", "{AFA8D510-A726-4856-AC15-0A6EE7CA90B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.Unit.Mensageria.Console", "UnitTest.Mensageria.Console\Test.Unit.Mensageria.Console.csproj", "{AFA8D510-A726-4856-AC15-0A6EE7CA90B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
